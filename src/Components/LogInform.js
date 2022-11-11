@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import {CiFacebook} from 'react-icons/ci';
 import{TfiEmail} from 'react-icons/tfi';
 import{SlSocialTwitter} from 'react-icons/sl';
 import{AiOutlineLinkedin} from 'react-icons/ai'; 
-import{TfiInstagram} from 'react-icons/tfi'
+import{TfiInstagram} from 'react-icons/tfi';
+
 
 
 function LogInForm() {

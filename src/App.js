@@ -1,12 +1,32 @@
 import './App.css';
-import './Components/LogInForm.css'
+import './Components/LogInForm.css';
 import LogInForm from './Components/LogInform';
+import Navbar from './Components/Navbar';
+import './Components/Navbar.css';
+import { BrowserRouter as Router , Route , Switch} from 'react-router-dom';
+
+
 
 
 
 
 function App() {
-  return( <LogInForm/>
+  return( 
+    <Router>
+            <Navbar/>
+              <Switch>
+                <Route path='/' exact component="" />
+            <Route path='/' exact component="" />
+            <Route path='/' component="" />
+            <Route path='/' component="" />
+              </Switch>            
+            <LogInForm/>
+    </Router>
+    
+
+
+ 
+
   )
     
   /*const[ counter, setCounter] = useState(0);
